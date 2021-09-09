@@ -6,7 +6,6 @@ defmodule GitScore.GitClient do
   @token Application.get_env(:git_score, :github_token)
 
   def get_events(owner) do
-    IO.inspect(@token)
     client = Tentacat.Client.new(%{access_token: @token})
     case Tentacat.Users.Events.list(client, owner) do
       {200, _body, response} ->
