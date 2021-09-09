@@ -1,0 +1,11 @@
+<section>
+  <h2>Github User: <%= @owner %> </h2>
+  <label> Event points to date:</label>
+  <%= inspect @scores %>
+</section>
+<br/>
+
+<section>
+  <h3>User Events Total</h3>
+  <label>Total points to date: <%= inspect @total %></label>
+</section>

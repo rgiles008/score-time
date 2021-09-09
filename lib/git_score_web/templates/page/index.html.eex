@@ -1,0 +1,5 @@
+<%= form_for @conn, Routes.score_path(@conn, :get_events), fn f -> %>
+  <%= label f, "Lets Get some user scores" %>
+  <%= text_input f, :owner, placeholder: "Repo Owner" %>
+  <%= submit "Get Some Events" %>
+<% end%>

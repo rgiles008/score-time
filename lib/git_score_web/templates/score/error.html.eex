@@ -1,0 +1,3 @@
+<h1>Error</h1>
+<label>You must input a Github Repo Owner</label>
+<%= inspect @message %>
