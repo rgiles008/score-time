@@ -1,5 +1,5 @@
 use Mix.Config
-config :git_score, github_token: "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"
+config :git_score, github_token: "<put token here>"
 
 # Configure your database
 config :git_score, GitScore.Repo,
